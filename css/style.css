@@ -544,6 +544,10 @@ font-size: 11px;
 	font-size: 12px;
 	color: #bcbcbc;
 }
+.jobs-full-detail .company-name img
+{
+	vertical-align: sub;
+}
 .jobs-full-detail  button
 {
 	float: right;;
@@ -617,15 +621,19 @@ margin: 0;
 }
 .employeee-button
 {
-	    background: #FFFFFF;
+	background: #FFFFFF;
     box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 6%);
     border-radius: 18px;
     color: #157EF8!important;
     height: 47px;
-    width: 188px;
-    line-height: 2;
-    text-align: center;
-    margin-top: 15px;;
+    width: 175px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 15px;
+	font-weight: bolder!important;
+	letter-spacing: .7px;
+    
 }
 #jobs .nav-item .active:after
 {
@@ -1043,4 +1051,65 @@ border-radius: 30px;
 #jobs-details .Salary
 {
 	float: inherit;
+}
+
+.google_play-button
+{
+	width: 175px;	
+	height: 47px;
+	/*float: left;	*/
+	background: #FFFFFF;
+box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 6%);
+border-radius: 18px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.google_play-button .google-icon
+{
+	width: 40px;
+	float: left;
+	height: 44px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.google_play-button .google-text
+{
+	width: 110px;
+	float: left;
+}
+.google_play-button .google-text p
+{
+	font-size: 10px!important;
+	line-height: 1;
+	color: #157EF8!important;
+	margin-top: 5px!important;
+	text-align: left;
+}
+.google_play-button .google-text h4
+{
+	font-size: 18px;
+	line-height: 1.5;
+	color: #157EF8;
+	text-align: left;
+}
+.video_play-button
+{
+	width: 175px;
+	display: flex;
+	align-items: center;
+	justify-content: content;
+}
+.video_play-button img
+{
+	width: 75px;
+	margin-top: -15px;
+}
+.video_play-button p
+{
+	margin-top: 5px;
+	margin-left: -5px;
+	color: #157EF8;
+	font-weight: bolder;
 }
