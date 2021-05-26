@@ -1,0 +1,187 @@
+@media only screen and (min-width: 1024px)
+{
+	#cities .city-outer .city-name
+	{
+		width: calc(90% / 5);
+	}
+}
+@media (min-width: 576px)
+{
+	.modal-sm 
+	{
+	    max-width: 370px;
+	}
+}
+@media only screen and (max-width: 768px)
+{
+	#features .our-features .features-box
+	{
+		width: 100%;
+	}
+	#trusted .brand-logo .logo-box
+	{
+		width: calc(100% / 2);
+		height: 100px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	#testimonials .left-section, #testimonials .right-section
+	{
+		width: 100%;
+	}
+	#testimonials .right-section
+	{
+		padding: 0;
+		margin-top: 15px;
+		text-align: center;
+	}
+	#app-download .app-store
+	{
+		border-radius: 10px;
+	}
+	.navbar-toggler
+	{
+		background: #157ef8;
+	}
+	.navbar-toggler:focus
+	{
+		background: #157ef8;
+	}
+	.nav-item .active:after
+	{
+		left: 6px;
+	}
+	#jobs-details .qualifications .q-details
+	{
+		width: 50%;
+		float: left;
+	}
+
+	/*------------------ jobs css -----------------*/
+
+
+	.search-bar .btn-primary
+	{
+		    width: 100%;
+    margin-bottom: 15px;
+	}
+	.search-bar .col-md-5
+	{
+		padding: 0;
+	}
+	.jobs-full-detail .experience
+	{
+		font-size: 10px;
+	}
+	.jobs-full-detail .Fresher
+	{
+		font-size: 14px;
+	}
+	.jobs-full-detail .experience, .jobs-full-detail .Fresher
+	{
+		width: 85px;
+	}
+	.tab-content, .tab-content>.tab-pane
+	{
+		width: 100%;
+		float: left;
+	}
+	.tab-content>.tab-pane
+	{
+		padding: 0;
+	}
+	#footer .footer-columns
+	{
+		width: 100%;
+	}
+	#jobs .job-section, #jobs .img-section p, #jobs .img-section .find-job-title
+	{
+		padding-left: 0;
+	}
+	#cities .city-outer .city-name
+	{
+		width: calc(92% / 3);
+	}
+	.signin-button, .login-button
+	{
+		margin-bottom: 10px;
+	}
+	#login-modal
+{
+	padding-right: 0!important;
+}
+#login-modal .input-div-left
+{
+	width: 40%;
+	float: left;
+}
+#login-modal .input-div-right
+{
+	width: 60%;
+	float: left;
+}
+#login-modal .modal-footer .col-md-6
+{
+	width: 50%;
+	float: left;
+}
+	#testimonials .left-section img
+	{
+	      width: 200px;
+	    border-radius: 50%;
+	    height: 200px;
+	    margin: 0 auto;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 460px)
+{	
+	#cities .city-outer .city-name
+	{
+		width: calc(90% / 2);
+	}
+	#jobs-details .qualifications .q-details
+	{
+		width: 50%;
+		float: left;
+	}
+	#jobs-details .date-and-user span img
+	{
+		width: 12px;
+	}
+	#jobs-details .date-and-user span
+	{
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width: 375px)
+{
+	.jobs-full-detail .experience, .jobs-full-detail .Fresher
+	{
+		width: 80px;
+	}
+	.jobs-full-detail .experience
+	{
+		letter-spacing: 1px;
+	}
+	#cities .city-outer .city-name
+	{
+		width: 100%;
+	}
+	#jobs-details .qualifications .q-details
+	{
+		width: 100%;
+	}
+	#jobs-details .date-and-user span .dot-icon
+	{
+		display: none;
+	}
+	.main-title
+	{
+		font-size: 25px;
+	}
+}
