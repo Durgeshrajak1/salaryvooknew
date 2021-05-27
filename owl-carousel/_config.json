@@ -13,7 +13,7 @@
 		"scripts": [
 			"src/js/owl.carousel.js",
 			"src/js/owl.autorefresh.js",
-			"src/js/owl.lazyload.js",
+			"src/js/",
 			"src/js/owl.autoheight.js",
 			"src/js/owl.video.js",
 			"src/js/owl.animate.js",
