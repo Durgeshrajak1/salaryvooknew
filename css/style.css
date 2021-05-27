@@ -481,6 +481,7 @@ text-decoration: underline;
     margin-bottom: 15px;
     font-weight: 600;
     color: #262626;
+    font-family: 'Gordita medium';
 }
 .job-heading span
 {
@@ -615,12 +616,15 @@ margin: 0;
 	margin: 0;
 	color: #262626;
 	font-weight: bolder;
+	font-size: 38px;
+	line-height: 1.1;
+	margin-bottom: 30px;
 }
 #jobs .img-section  .find-job-title span
 {
 	text-decoration: underline;
 	color: #157EF8;
-	font-size: 30px;
+	
 }
 #jobs .img-section  p, #jobs .img-section  .find-job-title
 {
