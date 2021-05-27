@@ -3,7 +3,7 @@
 
 body
 {
-  font-family: Gordita!important;
+  font-family: Gordita regular;
 font-style: normal;
 font-weight: normal;
 }
@@ -17,7 +17,11 @@ a:hover
 }
 h1, h2, h3, h4, h5, h6
 {
-	font-weight: bold!important;
+	font-family: 'Gordita bold';
+}
+p
+{
+	font-family: 'Gordita bold';
 }
 section
 {
@@ -93,9 +97,7 @@ header
 }
 .signin-button:hover
 {
-	/*background: #157EF8;*/
-	color: #fff!important;
-	box-shadow: 0px 0px 4px 2px #157EF8;
+	
 }
 .signin-button1
 {
@@ -119,9 +121,7 @@ header
 }
 .login-button:hover
 {
-	/*background: #157EF8;*/
-	color: #fff!important;
-	box-shadow: 0px 0px 4px 2px #157EF8 ;
+	
 }
 .top-button span
 {
@@ -131,7 +131,7 @@ header
     font-size: 12px;
     padding: 8px 15px;
     font-weight: normal;
-    font-family: 'Gordita';
+    font-family: 'Gordita regular';
 }
 .main-banner
 {
@@ -151,6 +151,8 @@ header
 	margin-bottom: 10px;
 	font-size: 50px;
 	line-height: 1.2;
+	font-family: 'Gordita bold';
+	font-size: 45px;
 }
 .main-banner .sub-div a img
 {
@@ -204,14 +206,19 @@ header
 #features  .our-features .features-box h4
 {
   font-size: 14px;
-  font-weight: bold;
+  font-family: 'Gordita medium';
   margin-bottom: 15px;
   margin-top: 10px;
+
 }
 #features  .our-features .features-box p
 {
   font-size: 12px;
   min-height: 152px;
+}
+#features  .our-features .features-box .play__video
+{
+	color: #bcbcbc!important;
 }
 #features  .our-features .features-box img
 {
@@ -1084,12 +1091,12 @@ justify-content: center;
 	font-size: 10px!important;
 	line-height: 1;
 	color: #157EF8!important;
-	margin-top: 5px!important;
+	margin-top: 2px!important;
 	text-align: left;
 }
 .google_play-button .google-text h4
 {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.5;
 	color: #157EF8;
 	text-align: left;
