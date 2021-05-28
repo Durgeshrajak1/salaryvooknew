@@ -17,11 +17,15 @@ a:hover
 }
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Gordita bold';
+	font-family: 'Gordita bold'!important;
 }
 p
 {
-	font-family: 'Gordita bold';
+	font-family: 'Gordita regular'!important;
+}
+li
+{
+	font-family: 'Gordita regular'!important;	
 }
 section
 {
@@ -206,7 +210,7 @@ header
 #features  .our-features .features-box h4
 {
   font-size: 14px;
-  font-family: 'Gordita medium';
+  font-family: 'Gordita medium'!important;
   margin-bottom: 15px;
   margin-top: 10px;
 
@@ -215,6 +219,8 @@ header
 {
   font-size: 12px;
   min-height: 152px;
+  font-family: 'Gordita regular';
+  color: #262626;
 }
 #features  .our-features .features-box .play__video
 {
