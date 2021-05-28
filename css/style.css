@@ -135,7 +135,7 @@ header
     font-size: 12px;
     padding: 8px 15px;
     font-weight: normal;
-    font-family: 'Gordita regular';
+    font-family: 'Gordita medium';
 }
 .main-banner
 {
@@ -152,7 +152,7 @@ header
 }
 .main-banner .sub-div h2
 {
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	font-size: 50px;
 	line-height: 1.2;
 	font-family: 'Gordita bold';
@@ -305,7 +305,7 @@ header
 }
 #jobs .content-box ul
 {
-  padding-left: 20px;
+  padding-left: 0px;
 }
 #testimonials
 {
