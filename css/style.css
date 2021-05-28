@@ -351,6 +351,14 @@ header
     border-radius: 0;
 
 }
+#testimonials .carousel-indicators li
+{
+	height: 7px;
+	width: 7px;
+	border-radius: 50%;
+	background: #bcbcbc;
+	border: none;
+}
 #testimonials #demos .owl-carousel .item
 {
       float: left;
@@ -509,6 +517,7 @@ border-radius: 16px;
 .search-bar .btn-primary img
 {
 	width: 20px;
+	margin-top: -4px;
 }
 .nav-pills .nav-item .nav-link
 {
@@ -585,6 +594,11 @@ font-size: 11px;
 	text-transform: uppercase;
 	font-size: 10px;
 	float: left;
+}
+.jobs-full-detail button img
+{
+	margin-top: -3px;
+	margin-right: 5px;
 }
 .tab-content
 {
@@ -920,7 +934,7 @@ select:focus, input:focus
 }
 .upload-img  p img
 {
-	width: 30px;
+	width: 40px;
 }
 
 /*upload file*/
