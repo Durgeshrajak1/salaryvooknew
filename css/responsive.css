@@ -25,6 +25,123 @@
 	{
 		font-size: 16px.
 	}
+	.main-banner .sub-div h2
+	{
+		font-size: 64px;
+	}
+	.main-banner .sub-div .para-text
+	{
+		font-size: 26px;
+	}
+	.top-button span
+	{
+		font-size: 12px;
+	}
+	.main-title
+	{
+		font-size: 48px;
+	}
+	.sub-para
+	{
+		font-size: 18px;
+		margin-bottom: 150px!important
+	}
+	#features .our-features .features-box .features-icon
+	{
+		width: 120px;
+		height: 120px;
+		border-radius: 40px;
+	}
+	#trusted .brand-logo .logo-box img
+	{
+		width: 106px;
+	}
+	#jobs .content-box li, #jobs .content-box p
+	{
+		font-size: 18px;
+	}
+	#jobs .content-box li
+	{
+		line-height: 1.7;
+	}
+	.signin-button1
+	{
+		font-size: 18px;
+	}
+	#testimonials .right-section p
+	{
+		font-size: 26px;
+	}
+	#testimonials .left-section
+	{
+		width: 40%
+	}
+	#testimonials .left-section .user-img
+	{
+		width: 480px;
+		height: 480px;
+	}
+	#testimonials .left-section .user-img img
+	{
+		border-radius: 184px;
+	}
+	#testimonials .left-section .user-img .user-d
+	{
+		width: 180px;
+		height: 180px;
+		border-radius: 79px;
+	}
+	#testimonials .left-section .user-img .user-d img
+	{
+		width: 78px;
+		height: 78px;
+	}
+	#app-download .app-store p
+	{
+		font-size: 35px;
+	}
+	.google_play-button 
+	{
+		width: 206px;
+		height: 64px;
+	}
+	.google_play-button .google-text p
+	{
+		font-size: 12px;
+	}
+	.google_play-button .google-text h4
+	{
+		font-size: 20px;
+	}
+
+	.google_play-button .google-text
+	{
+		width: calc(100% - 40px);
+	}
+	.banner-button .google-text
+	{
+		width: calc(100% - 70px);
+	}
+	#footer .footer-section .footer-list li, #footer .footer-section .unorder-list p a, #footer .footer-copyright
+	{
+		font-size: 18px;
+	}
+	#trusted
+	{
+		margin:200px 0 ;
+		margin-bottom: 250px;
+	}
+	#features
+	{
+		margin-bottom: 120px;
+	}
+	#app-download .app-store
+	{
+		padding: 175px 50px;
+		border-radius: 160px;
+	}
+	
+
 }
 
 @media only screen and (min-width: 1024px)
