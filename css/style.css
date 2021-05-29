@@ -59,11 +59,20 @@ header
 	margin-left: auto;	
 
 }
+.left-side-menu .nav-item a
+{
+	font-weight: normal;
+  font-size: 12px;
+  font-family: 'Gordita medium';
+  padding-left: 1rem!important;
+  padding-right: 1rem!important: 
+}
 .nav-item a
 {
   color: #262626!important;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12px;
+  font-family: 'Gordita medium';
 }
 .right-menu .nav-item a
 {
@@ -132,14 +141,15 @@ header
       color: #262626;
     background: #F0F7FE;
     border-radius: 12px;
-    font-size: 12px;
+    font-size: 9px;
     padding: 8px 15px;
     font-weight: normal;
     font-family: 'Gordita medium';
+    letter-spacing: 1px;
 }
 .main-banner
 {
-  padding-top: 40px;
+  padding-top: 80px;
 }
 .main-banner .blue-text
 {
@@ -156,7 +166,7 @@ header
 	font-size: 50px;
 	line-height: 1.2;
 	font-family: 'Gordita bold';
-	font-size: 45px;
+	font-size: 42px;
 }
 .main-banner .sub-div a img
 {
@@ -176,6 +186,7 @@ header
   font-size: 30px;
   color: #262626;
   margin-top: 0;
+  margin-bottom: 15px;
 }
 #banner
 {
@@ -186,6 +197,7 @@ header
   padding: 50px 0 ;
   float: left;
   width: 100%;
+  padding-top: 0;
 }
 #features  .our-features 
 {
@@ -217,8 +229,8 @@ header
 }
 #features  .our-features .features-box p
 {
-  font-size: 12px;
-  min-height: 152px;
+  font-size: 11px;
+  min-height: 120px;
   font-family: 'Gordita regular';
   color: #262626;
 }
@@ -272,6 +284,7 @@ header
   padding: 50px 0 ;
   float: left;
   width: 100%;
+  margin: 70px 0;
 }
 #trusted .brand-logo
 {
@@ -311,22 +324,28 @@ header
 {
   float: left;
   width: 100%;
+  margin-bottom: 150px;
+}
+#testimonials .carousel-indicators
+{
+	bottom: -100px;
 }
 #testimonials .left-section
 {
-  width: 40%;
+  width: 50%;
   float: left;
 }
 #testimonials .right-section
 {
-  width: 60%;
+  width: 50%;
   float: left;
-  padding-right: 220px;
+  padding-right: 150px;
+  margin-top: 50px;
 }
 #testimonials .left-section .user-img 
 {
-      width: 250px;    
-    height: 250px;
+      width: 300px;    
+    height: 300px;
     margin: 0 auto;
     position: relative;
 }
@@ -374,7 +393,7 @@ header
 }
 #testimonials #demos
 {
-	margin-top: 0;
+	margin-top: 100px;
 	padding: 0;
 }
 #testimonials .owl-theme .owl-nav [class*=owl-]
@@ -387,7 +406,7 @@ header
 }
 #app-download .app-store
 {
-  padding: 80px 50px;
+  padding: 120px 50px;
   background-color: #157EF8;
   background-image: url('../img/mask-group.png');
   width: 100%;
