@@ -2,7 +2,28 @@
 {
 	.container, .container-lg, .container-md, .container-sm, .container-xl
 	{
-		max-width: calc(100% - 185px);
+		max-width: calc(100% - 285px);
+	}
+	#testimonials .left-section
+	{
+		width: 30%;
+	}
+	#testimonials .right-section
+	{
+		width: 50%;
+	}
+	#features .our-features .features-box p
+	{
+		font-size: 16px;
+		min-height: 153px;
+	}
+	#features .our-features .features-box h4
+	{
+		font-size: 18px;
+	}
+	#features .our-features .features-box a
+	{
+		font-size: 16px.
 	}
 }
 
