@@ -15,6 +15,10 @@ a:hover
 {
   text-decoration: none;
 }
+p
+{
+	color: #262626!important;
+}
 h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Gordita bold'!important;
@@ -65,7 +69,7 @@ header
   font-size: 12px;
   font-family: 'Gordita medium';
   padding-left: 1rem!important;
-  padding-right: 1rem!important: 
+  padding-right: 1rem!important;
 }
 .nav-item a
 {
@@ -91,7 +95,8 @@ header
   transform: translate(-50%, 0px);
   width: 12px;
   height: 4px;
-  background: #157EF8
+  background: #157EF8;
+  border-radius: 2px;
 }
 .signin-button, .login-button
 {
@@ -326,18 +331,23 @@ header
   width: 100%;
   margin-bottom: 150px;
 }
+#testimonials .carousel-control-prev, 
+#testimonials .carousel-control-next
+{
+	display: none;
+}
 #testimonials .carousel-indicators
 {
 	bottom: -100px;
 }
 #testimonials .left-section
 {
-  width: 50%;
+  width: 40%;
   float: left;
 }
 #testimonials .right-section
 {
-  width: 50%;
+  width: 60%;
   float: left;
   padding-right: 150px;
   margin-top: 50px;
@@ -346,7 +356,7 @@ header
 {
       width: 300px;    
     height: 300px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     position: relative;
 }
 #testimonials .left-section .user-img img
@@ -358,9 +368,9 @@ header
 #testimonials .left-section .user-img .user-d
 {
 	position: absolute;
-    width: 80px;
-    height: 80px;
-    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
     bottom:10px;
     right: -35px;
     background: #F0F7FE;
@@ -415,7 +425,7 @@ header
 }
 #app-download .app-store p
 {
-  color: #fff;
+  color: #fff!important;
     font-size: 24px;
     line-height: 1.3;
     letter-spacing: 1px;
@@ -464,7 +474,7 @@ text-decoration: underline;
 #footer .footer-section .unorder-list 
 {
 	list-style: disc!important;
-	padding-left: 15px;
+	padding-left: 16px;
 }
 #footer .footer-section .unorder-list  a
 {
@@ -481,7 +491,7 @@ text-decoration: underline;
 	/*width: 20px;*/
 	float: left;
 	margin-right: 5px;
-	/*margin-top: -5px;*/
+	margin-left: -2px;
 }
 #footer .footer-section .footer-list li span
 {
@@ -495,7 +505,7 @@ text-decoration: underline;
 {
 	color: #157EF8;
 	font-size: 12px;
-
+	margin-top: 30px;
 }
 .location-label
 {
@@ -560,6 +570,11 @@ font-size: 11px;
     color: #fff!important;
     border-radius: 12px;
 }
+.tab-content>.active
+{
+	float: left;
+	width: 100%;	
+}
 .jobs-full-detail
 {
 	background: #FFFFFF;
@@ -569,6 +584,7 @@ font-size: 11px;
 	width: 100%;
 	float: left;
 	margin-bottom: 15px;
+	position: relative;
 }
 .jobs-full-detail p
 {
@@ -584,7 +600,8 @@ font-size: 11px;
 .jobs-full-detail .company-name
 {
 	font-size: 12px;
-	color: #bcbcbc;
+	color: #bcbcbc!important;
+	margin-bottom: 10px;
 }
 .jobs-full-detail .company-name img
 {
@@ -592,7 +609,15 @@ font-size: 11px;
 }
 .jobs-full-detail  button
 {
-	float: right;;
+	float: right;
+	
+}
+.hires .jobs-full-detail  button
+{
+	float: right;
+	position: absolute;
+	top: 15px;
+	right: 15px;
 }
 .jobs-full-detail  .Salary
 {
@@ -612,6 +637,7 @@ font-size: 11px;
 	
 	font-weight: bolder;
     font-size: 16px;
+    float: left;
 }
 .jobs-full-detail .experience
 {

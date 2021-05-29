@@ -1,3 +1,11 @@
+@media (min-width: 1399px)
+{
+	.container, .container-lg, .container-md, .container-sm, .container-xl
+	{
+		max-width: calc(100% - 185px);
+	}
+}
+
 @media only screen and (min-width: 1024px)
 {
 	#cities .city-outer .city-name
