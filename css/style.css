@@ -118,8 +118,7 @@ header
 	box-shadow: 0px 0px 20px 2px rgb(0 0 0 / 6%)
 }
 .login-button:hover
-{
-	box-shadow: 0px 0px 20px 2px rgb(0 0 0 / 6%);
+{	
 	border-color: #1371de;
 	color: #1371de!important;
 }
@@ -1184,6 +1183,7 @@ justify-content: center;
 .video_play-button
 {
 	width: 175px;
+	height: 47px;
 	display: flex;
 	align-items: center;
 	justify-content: content;

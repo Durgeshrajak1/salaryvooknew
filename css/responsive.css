@@ -4,6 +4,11 @@
 	{
 		max-width: calc(100% - 285px);
 	}
+	.left-side-menu .nav-item a
+	{
+		padding-right: 1.7rem!important;
+		padding-left: 1.7rem!important;
+	}
 	.left-side-menu .nav-item a, .nav-item a
 	{
 		font-size: 18px;
@@ -11,9 +16,12 @@
 	.signin-button, .login-button
 	{
 		font-size: 18px;
-		width: auto;
-		height: auto;
-		line-height: inherit;
+		width: 134px;
+		height: 48px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 18px;
 	}
 	#testimonials .left-section
 	{
@@ -42,11 +50,11 @@
 	}
 	.main-banner .sub-div h2
 	{
-		font-size: 64px;
+		font-size: 60px;
 	}
 	.main-banner .sub-div .para-text
 	{
-		font-size: 26px;
+		font-size: 24px;
 	}
 	.top-button span
 	{
@@ -123,18 +131,20 @@
 	{
 		font-size: 35px;
 	}
-	.google_play-button 
+	.google_play-button, .video_play-button
 	{
-		width: 206px;
-		height: 64px;
+		width: 180px;
+		height: 48px;
 	}
+
 	.google_play-button .google-text p
 	{
 		font-size: 12px;
 	}
 	.google_play-button .google-text h4
 	{
-		font-size: 20px;
+		font-size: 18px;
+		font-family: 'Gordita medium'!important;
 	}
 
 	.google_play-button .google-text
@@ -143,7 +153,7 @@
 	}
 	.banner-button .google-text
 	{
-		width: calc(100% - 70px);
+		width: calc(100% - 65px);
 	}
 	#footer .footer-section .footer-list li, #footer .footer-section .unorder-list p a, #footer .footer-copyright
 	{
@@ -165,8 +175,8 @@
 	}
 	.employeee-button
 	{
-		width: 205px;
-		height: 64px;
+		width: 180px;
+		height: 48px;
 		font-size: 20px!important;
 	}
 	.main-banner .sub-div a img
@@ -253,6 +263,7 @@
 		font-size: 24px;
 		font-family: 'Gordita regular';
 		height: 75px;
+		width: calc(94% / 5)!important;
 	}
 	#footer .footer-section .footer-heading
 	{
@@ -265,6 +276,10 @@
 	#footer .footer-section .footer-list li img
 	{
 		margin-top: 6px;
+	}
+	#testimonials .right-section
+	{
+		padding-right: 0;
 	}
 
 }
