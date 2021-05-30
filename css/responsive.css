@@ -4,6 +4,17 @@
 	{
 		max-width: calc(100% - 285px);
 	}
+	.left-side-menu .nav-item a, .nav-item a
+	{
+		font-size: 18px;
+	}
+	.signin-button, .login-button
+	{
+		font-size: 18px;
+		width: auto;
+		height: auto;
+		line-height: inherit;
+	}
 	#testimonials .left-section
 	{
 		width: 30%;
@@ -24,6 +35,10 @@
 	#features .our-features .features-box a
 	{
 		font-size: 16px.
+	}
+	.main-banner .sub-div
+	{
+		margin-top: 165px;
 	}
 	.main-banner .sub-div h2
 	{
@@ -56,6 +71,10 @@
 	{
 		width: 106px;
 	}
+	 #jobs .content-box p
+	 {
+	 	margin-top: 100px;
+	 }
 	#jobs .content-box li, #jobs .content-box p
 	{
 		font-size: 18px;
@@ -67,6 +86,10 @@
 	.signin-button1
 	{
 		font-size: 18px;
+	}
+	#testimonials .carousel-inner
+	{
+		margin-top: 150px;
 	}
 	#testimonials .right-section p
 	{
@@ -146,7 +169,103 @@
 		height: 64px;
 		font-size: 20px!important;
 	}
-	
+	.main-banner .sub-div a img
+	{
+		margin-top: 0;
+	}
+	.video_play-button p
+	{
+		margin:0;
+	}
+
+
+	/*job page*/
+
+	.job-heading
+	{
+		font-size: 24px;
+	}
+	.location-label
+	{
+		font-size: 12px;
+	}
+	.search-bar select
+	{
+		font-size: 14px;
+	}
+	.search-bar .btn-primary
+	{
+		font-size: 14px;
+	}
+	.nav-pills .nav-item .nav-link
+	{
+		font-size: 14px;
+	}
+	.jobs-full-detail p .job-title
+	{
+		font-size: 18px
+	}
+	.badge-primary
+	{
+		line-height: 14px;
+	}
+	.jobs-full-detail .company-name
+	{
+		margin-top: -8px;
+		font-size: 14px;
+	}
+	.jobs-full-detail .Salary
+	{
+		font-size: 24px;
+	}
+	.jobs-full-detail button img
+	{
+		margin-top: 0;
+	}
+	.jobs-full-detail button
+	{
+		font-size: 14px;
+	}
+	#jobs .tab-content .container
+	{
+		max-width: 100%;
+	}
+	#jobs .img-section .find-job-title
+	{
+		font-size: 48px;
+	}
+	#jobs .img-section p
+	{
+		font-size: 18px;
+	}
+	#jobs .job-section ul.pagination li a
+	{
+		font-size: 16px;
+		border-radius: 10px;
+	}
+	#cities .city-outer .city-heading
+	{
+		font-size: 24px;
+		font-family: 'Gordita medium'!important;
+	}
+	#cities .city-outer .city-name
+	{
+		font-size: 24px;
+		font-family: 'Gordita regular';
+		height: 75px;
+	}
+	#footer .footer-section .footer-heading
+	{
+		font-size: 24px;
+	}
+	.hires .jobs-full-detail .company-name
+	{
+		margin-top: 0;
+	}
+	#footer .footer-section .footer-list li img
+	{
+		margin-top: 6px;
+	}
 
 }
 
