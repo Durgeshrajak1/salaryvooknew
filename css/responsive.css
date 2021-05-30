@@ -194,6 +194,7 @@
 	.job-heading
 	{
 		font-size: 24px;
+		margin-bottom: 32px;
 	}
 	.location-label
 	{
@@ -213,6 +214,14 @@
 		margin:6px;
 		padding: 10px 38px;
 		letter-spacing: 0.5px
+	}
+	.jobs-full-detail
+	{
+		padding: 24px;
+	}
+	.hires .jobs-full-detail button{
+		top: 24px;
+		right: 24px;
 	}
 	.jobs-full-detail p .job-title
 	{
