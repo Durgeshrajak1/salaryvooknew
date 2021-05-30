@@ -210,6 +210,9 @@
 	.nav-pills .nav-item .nav-link
 	{
 		font-size: 14px;
+		margin:6px;
+		padding: 10px 38px;
+		letter-spacing: 0.5px
 	}
 	.jobs-full-detail p .job-title
 	{
@@ -253,10 +256,16 @@
 		font-size: 16px;
 		border-radius: 10px;
 	}
+	#cities .city-outer
+	{
+		padding: 60px;
+		margin-bottom: 32px;
+	}
 	#cities .city-outer .city-heading
 	{
 		font-size: 24px;
 		font-family: 'Gordita medium'!important;
+		margin-bottom: 35px;
 	}
 	#cities .city-outer .city-name
 	{
