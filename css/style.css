@@ -31,6 +31,9 @@ li
 {
 	font-family: 'Gordita regular'!important;	
 }
+html {
+  scroll-behavior: smooth;
+}
 section
 {
   padding: 50px 0 ;
@@ -209,6 +212,7 @@ header
   float: left;
   width: 100%;
   padding-top: 0;
+  padding-top: 100px;
 }
 #features  .our-features 
 {
@@ -296,6 +300,7 @@ header
   float: left;
   width: 100%;
   margin: 70px 0;
+  padding-top: 100px;
 }
 #trusted .brand-logo
 {
@@ -336,6 +341,7 @@ header
   float: left;
   width: 100%;
   margin-bottom: 150px;
+  padding-top: 100px;
 }
 #testimonials .carousel-control-prev, 
 #testimonials .carousel-control-next
@@ -419,6 +425,9 @@ header
 #app-download 
 {
   border-bottom: 1px solid  rgba(0, 0, 0, 0.06);
+  float: left;
+  width: 100%;
+  padding-top: 100px;
 }
 #app-download .app-store
 {
