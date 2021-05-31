@@ -231,6 +231,7 @@ header
 #features .our-features .features-box a
 {
 	color: #262626;
+	display: none;
 }
 #features .our-features .features-box a:hover
 {
