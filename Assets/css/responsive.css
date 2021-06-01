@@ -461,6 +461,24 @@
 	{
 		font-size: 13px;
 	}
+	.google_play-button, .video_play-button
+	{
+		width: 145px;
+	}
+	.google_play-button .google-icon
+	{
+		width: 35px;
+	}
+	.video_play-button img
+	{
+		width: 60px;
+		margin-top: 0;
+	}
+	.video_play-button p
+	{
+		font-size: 14px;
+		margin-top: 15px;
+	}
 }
 @media only screen and (max-width: 375px)
 {
